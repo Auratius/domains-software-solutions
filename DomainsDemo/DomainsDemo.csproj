@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebDevelopment\WebDevelopment.csproj" />
+    <ProjectReference Include="..\DesktopApplications\DesktopApplications.csproj" />
+    <ProjectReference Include="..\MobileApplications\MobileApplications.csproj" />
+    <ProjectReference Include="..\CloudComputing\CloudComputing.csproj" />
+    <ProjectReference Include="..\DataScience\DataScience.csproj" />
+    <ProjectReference Include="..\ArtificialIntelligence\ArtificialIntelligence.csproj" />
+    <ProjectReference Include="..\DevOps\DevOps.csproj" />
+    <ProjectReference Include="..\Security\Security.csproj" />
+    <ProjectReference Include="..\IoT\IoT.csproj" />
+    <ProjectReference Include="..\GameDevelopment\GameDevelopment.csproj" />
+    <ProjectReference Include="..\EmbeddedSystems\EmbeddedSystems.csproj" />
+    <ProjectReference Include="..\EnterpriseSolutions\EnterpriseSolutions.csproj" />
+    <ProjectReference Include="..\DatabaseSolutions\DatabaseSolutions.csproj" />
+    <ProjectReference Include="..\Networking\Networking.csproj" />
+    <ProjectReference Include="..\Blockchain\Blockchain.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
